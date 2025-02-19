@@ -1,5 +1,5 @@
 
-# Caculator
+# Calculator
 
 felt kind bored so decided to build something eazy and fast \
 What is eazier than a Caculator!
