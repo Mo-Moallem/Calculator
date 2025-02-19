@@ -1,0 +1,24 @@
+:root {
+    --black: #130F0E;
+    --yellow-white: #FEE7D7;
+    --brown: #593934;
+    --light-brown: #83665C;
+    --doubl-light-brown: #C28773;
+    --orange: #FE652B;
+    --pink: #D28471;
+    --bgGreen: #818E87;
+
+}
+#leftKeys{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+#display{
+    background-color: var(--bgGreen);
+}
+button{
+    background-color: var(--yellow-white);
+    border-radius: 8%;
+    border: none;
+}
