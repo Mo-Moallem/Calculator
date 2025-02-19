@@ -24,3 +24,27 @@ So I opened fonts.google.com
 I fount this:
 
 ![image](https://github.com/user-attachments/assets/c629cc04-06a6-4837-b834-81ecf60bd3a7)
+
+looks similar enough.
+
+Lets find the collors 
+
+#130F0E black
+
+#FEE7D7 yollew-white
+
+#593934 brown
+
+#83665C light-brown
+
+#FE652B orange
+
+#D28471 pink?
+
+#C28773 doubl-light-brown
+
+#818E87 background green
+
+let's start with some HTML
+
+
