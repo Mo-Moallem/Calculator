@@ -47,4 +47,5 @@ Lets find the collors
 
 let's start with some HTML
 
+![image](https://github.com/user-attachments/assets/1578a356-1bba-4bb2-b7a2-6c557c8425f0)
 
