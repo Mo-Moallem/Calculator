@@ -65,3 +65,20 @@ Now, with some sweet CSS I got it finally to look similar to the calc in the pic
 
 
 Not perfect but, a good start.
+
+Okay, this is better
+
+![image](https://github.com/user-attachments/assets/dbec43a5-dd48-47d6-8783-d991dd93891d)
+
+Also one last thing, I want to add font to the caculator display
+
+I found this font
+
+![image](https://github.com/user-attachments/assets/d387a5db-3ef7-4758-be85-c6fb0c165403)
+
+link: https://www.fontspace.com/digital-7-font-f7087
+
+![image](https://github.com/user-attachments/assets/24714ab6-c41c-400a-bbe1-4cfcae282408)
+
+
+
