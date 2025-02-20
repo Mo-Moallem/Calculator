@@ -1,6 +1,6 @@
 :root {
     --black: #130F0E;
-    --yellow-white: #FEE7D7;
+    --yellow-white: #f5e1c5;;
     --brown: #593934;
     --light-brown: #83665C;
     --doubl-light-brown: #C28773;
@@ -9,7 +9,11 @@
     --bgGreen: #818E87;
     --button-size: 30px;
     --button-margin: 10px;
+    --border-thickness: 2px;
 
+}
+body{
+    background-color: rgb(2, 81, 146);
 }
 #calculator{
     background-color: var(--black);
@@ -52,9 +56,10 @@
 .keycap {
     width: 60px;
     height: 60px;
-    background: #f5e1c5; 
+    /* background: #f5e1c5;  */
+    background-color: var(--yellow-white);
     border-radius: 10px;
-    border: 1.5px solid #d1b89f; 
+    border: var(--border-thickness) solid #d1b89f; 
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
     font-family: "Handlee", serif;
     /* todo */
@@ -77,7 +82,7 @@
 
 .keycap .sub {
     font-size: 10px;
-    color: #a15c4c; 
+    color: var(--pink)
 }
 
 .keycap:active {
@@ -87,4 +92,23 @@
 #plus-button {
     grid-row: span 2; /* Makes it take two rows */
     height: 125px; /* Double the height */
+    background-color: var(--brown);
+    border: var(--border-thickness) solid rgba(0, 0, 0, 0.3); 
+}
+#AC{
+    background-color: var(--orange);
+    border: var(--border-thickness) solid rgba(0, 0, 0, 0.3); /* Darker border */
+}
+#AC .main{
+    color: white;
+}
+.brown-btn{
+    background-color: var(--light-brown);
+    border: var(--border-thickness) solid rgba(0, 0, 0, 0.3); 
+}
+#dot .main{
+    transform: scale(1.5);
+}
+#display{
+    content: 8008;
 }
