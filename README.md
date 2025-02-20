@@ -49,3 +49,19 @@ let's start with some HTML
 
 ![image](https://github.com/user-attachments/assets/1578a356-1bba-4bb2-b7a2-6c557c8425f0)
 
+
+
+I changed the structure of html a bit to to help with the design.
+
+For example we need some sub-text for the nubmers so I changed the structure of every button:
+
+![image](https://github.com/user-attachments/assets/c1c8ae7c-48e0-4cbb-8370-8f8468b2096c)
+
+Now, with some sweet CSS I got it finally to look similar to the calc in the picture.
+
+
+![image](https://github.com/user-attachments/assets/6979f2cd-66f4-4644-88de-81a7686ba7b0)
+
+
+
+Not perfect but, a good start.
