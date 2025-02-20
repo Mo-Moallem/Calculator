@@ -109,6 +109,15 @@ body{
 #dot .main{
     transform: scale(1.5);
 }
+@font-face {
+    font-family: "Digital7";
+    font-style: mono-italic;
+    src: url(fonts/Digital7Monoitalic-8MDLJ.ttf);
+}
 #display{
-    content: 8008;
+    initial-value: "8008";
+    font-family: "Digital7";
+    font-style: "mono-italic";
+    color: black;
+    font-size: 90px;
 }
