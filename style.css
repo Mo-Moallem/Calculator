@@ -7,18 +7,84 @@
     --orange: #FE652B;
     --pink: #D28471;
     --bgGreen: #818E87;
+    --button-size: 30px;
+    --button-margin: 10px;
 
+}
+#calculator{
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: min-content;
+    width: min-content;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+#display{
+    background-color: var(--bgGreen);
+    width: 95%;
+    height: 65px;
+    margin: 10px;
+    border-radius: 5px;
 }
 #leftKeys{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    grid-gap: 0px;
 }
-#display{
-    background-color: var(--bgGreen);
+#mainKeys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0px;
 }
-button{
-    background-color: var(--yellow-white);
-    border-radius: 8%;
-    border: none;
+#rightKeys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+}
+#keysContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    justify-content: center; 
+}
+.keycap {
+    width: 60px;
+    height: 60px;
+    background: #f5e1c5; 
+    border-radius: 10px;
+    border: 1.5px solid #d1b89f; 
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: "Handlee", serif;
+    /* todo */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out;
+    margin: 2px;
+}
+
+.keycap .main {
+    
+    font-size: 20px;
+    color: #222; 
+}
+
+.keycap .sub {
+    font-size: 10px;
+    color: #a15c4c; 
+}
+
+.keycap:active {
+    transform: translateY(2px); 
+}
+
+#plus-button {
+    grid-row: span 2; /* Makes it take two rows */
+    height: 125px; /* Double the height */
 }
