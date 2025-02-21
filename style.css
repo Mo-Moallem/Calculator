@@ -7,7 +7,7 @@
     --orange: #FE652B;
     --pink: #D28471;
     --bgGreen: #818E87;
-    --button-size: 30px;
+    --button-size: 60px;
     --button-margin: 10px;
     --border-thickness: 2px;
 
@@ -120,4 +120,10 @@ body{
     font-style: "mono-italic";
     color: black;
     font-size: 90px;
+}
+.icon{
+    max-width: 85%; /* Adjust icon size */
+    max-height: 85%;
+    margin-top: 8px;
+    
 }
