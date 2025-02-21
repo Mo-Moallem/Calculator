@@ -23,7 +23,7 @@ body{
     height: min-content;
     width: min-content;
     padding: 15px 15px;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 #display{
     background-color: var(--bgGreen);
@@ -98,6 +98,7 @@ body{
 #AC{
     background-color: var(--orange);
     border: var(--border-thickness) solid rgba(0, 0, 0, 0.3); /* Darker border */
+    border-bottom-left-radius: 25px;
 }
 #AC .main{
     color: white;
@@ -125,5 +126,7 @@ body{
     max-width: 85%; /* Adjust icon size */
     max-height: 85%;
     margin-top: 8px;
-    
+}
+#M-plus{
+    border-bottom-right-radius: 25px;
 }
