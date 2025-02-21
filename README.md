@@ -1,6 +1,8 @@
 
 # Calculator
 
+
+### Day 1
 felt kind bored so decided to build something eazy and fast \
 What is eazier than a Caculator!
 
@@ -50,7 +52,7 @@ let's start with some HTML
 ![image](https://github.com/user-attachments/assets/1578a356-1bba-4bb2-b7a2-6c557c8425f0)
 
 
-
+### Day 2
 I changed the structure of html a bit to to help with the design.
 
 For example we need some sub-text for the nubmers so I changed the structure of every button:
@@ -79,6 +81,20 @@ I found this font
 link: https://www.fontspace.com/digital-7-font-f7087
 
 ![image](https://github.com/user-attachments/assets/24714ab6-c41c-400a-bbe1-4cfcae282408)
+
+### Day 3
+
+
+
+<img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/dadae9b7-e772-42fc-89e9-226bb4586387">
+
+Just placeholder for icon with an actuall one 
+
+Problem: it seems the icons I'm looking for might hard to find online
+
+Maybe I will have to design them.
+
+
 
 
 
