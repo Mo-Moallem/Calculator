@@ -1,5 +1,7 @@
 const display = document.getElementById("display");
 let dotable = true;
+let lastInput;
+let lastOperator;
 
 function append(input){
     if(input=="."){
@@ -17,6 +19,17 @@ function clearDisplay(){
     
 }
 
-function operate(operater){
+function operate(operator){
+    lastInput = display.value;
+    lastOperator = operator;
+    clearDisplay();
+}
+
+function cal(){
+    if(lastInput && lastOperator){
+        let str = lastInput + lastOperator + display.value;
+        console.log(str)
+        display.value = eval(str);
+    }
     
 }
