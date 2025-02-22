@@ -116,7 +116,6 @@ body{
     src: url(fonts/Digital7Monoitalic-8MDLJ.ttf);
 }
 #display{
-    initial-value: "8008";
     font-family: "Digital7";
     font-style: "mono-italic";
     color: black;

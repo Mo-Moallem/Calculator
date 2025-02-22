@@ -1,18 +1,22 @@
 const display = document.getElementById("display");
-var dotable = true;
+let dotable = true;
 
-function append(value){
-    if(value=="."){
+function append(input){
+    if(input=="."){
         if(dotable){
             dotable = false;
         }else{
             return;
         }
     }
-    display.value += value;
+    display.value += input;
+}
+
+function clearDisplay(){
+    display.value = "";
     
 }
 
-function clear(){
-    display.value = "";
+function operate(operater){
+    
 }
