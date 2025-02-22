@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="calculator">
-        <input type="text" id="display" disabled value="8008">
+        <input type="text" id="display" disabled>
         <div id="keysContainer">
             <div id="leftKeys">
                 <button class="keycap">
@@ -22,7 +22,7 @@
                     <span class="main"><img class="icon" src="images/arrow-right.png"></span>
                     <span class="sub"></span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="claer()">
                     <!--clear-->
                     <span class="main">C/CE</span>
                     <span class="sub"></span>
@@ -34,54 +34,54 @@
                 </button>
             </div>
             <div id="mainKeys">
-                <button class="keycap">
+                <button class="keycap" onclick="append('7')">
                     <span class="main">7</span>
                     <span class="sub">seven</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('8')">
                     <span class="main">8</span>
                     <span class="sub">eight</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('9')">
                     <span class="main">9</span>
                     <span class="sub">nine</span>
                 </button>
                 
-                <button class="keycap">
+                <button class="keycap" onclick="append('4')">
                     <span class="main">4</span>
                     <span class="sub">four</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('5')">
                     <span class="main">5</span>
                     <span class="sub">five</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('6')">
                     <span class="main">6</span>
                     <span class="sub">six</span>
                 </button>
         
-                <button class="keycap">
+                <button class="keycap" onclick="append('1')">
                     <span class="main">1</span>
                     <span class="sub">one</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('2')">
                     <span class="main">2</span>
                     <span class="sub">two</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('3')">
                     <span class="main">3</span>
                     <span class="sub">three</span>
                 </button>
                 
-                <button class="keycap">
+                <button class="keycap" onclick="append('0')">
                     <span class="main">0</span>
                     <span class="sub">__</span>
                 </button>
-                <button class="keycap">
+                <button class="keycap" onclick="append('00')">
                     <span class="main">00</span>
                     <span class="sub">__</span>
                 </button>
-                <button class="keycap" id="dot">
+                <button class="keycap" id="dot" onclick="append('.')">
                     <span class="main">.</span>
                     <span class="sub">__</span>
                 </button>
@@ -137,6 +137,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
