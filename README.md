@@ -82,11 +82,16 @@ link: https://www.fontspace.com/digital-7-font-f7087
 
 ![image](https://github.com/user-attachments/assets/24714ab6-c41c-400a-bbe1-4cfcae282408)
 
-### Day 3
 
 
 
 <img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/2a4df54b-77ac-4bff-bf55-2e3a4f054e25">
+
+### Day 3
+
+
+
+
 
 Just placeholder for icon with an actuall one 
 
@@ -97,6 +102,14 @@ Maybe I will have to design them.
 
 Also changed bottme coners
 
+<img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/f40a8b10-804a-49e7-b211-b6e2d8ee8651">
+
+### Day 4
+
+Added some functionalities 
+
+For now, you can +,-,*,/
+And also you claer the display by using C/CE
 
 
 
