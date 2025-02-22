@@ -12,3 +12,7 @@ function append(value){
     display.value += value;
     
 }
+
+function clear(){
+    display.value = "";
+}
