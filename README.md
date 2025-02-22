@@ -86,14 +86,16 @@ link: https://www.fontspace.com/digital-7-font-f7087
 
 
 
-<img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/dadae9b7-e772-42fc-89e9-226bb4586387">
+<img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/2a4df54b-77ac-4bff-bf55-2e3a4f054e25">
 
 Just placeholder for icon with an actuall one 
+
 
 Problem: it seems the icons I'm looking for might hard to find online
 
 Maybe I will have to design them.
 
+Also changed bottme coners
 
 
 
