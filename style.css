@@ -10,7 +10,6 @@
     --button-size: 60px;
     --button-margin: 10px;
     --border-thickness: 2px;
-
 }
 body{
     background-color: rgb(2, 81, 146);
@@ -75,7 +74,6 @@ body{
 }
 
 .keycap .main {
-    
     font-size: 20px;
     color: #222; 
 }
