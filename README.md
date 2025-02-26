@@ -112,4 +112,10 @@ For now, you can +,-,*,/
 And also you claer the display by using C/CE
 
 
+### Day 7
 
+It seems I Do not quite understand how AC and CE/C work
+
+CE = clear entiry will cancel the lastly added number but not the oprations before
+
+AC = All clear will clear every thing
