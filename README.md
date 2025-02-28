@@ -2,7 +2,7 @@
 # Calculator
 
 
-### Day 1
+### Step 1
 felt kind bored so decided to build something eazy and fast \
 What is eazier than a Caculator!
 
@@ -52,7 +52,7 @@ let's start with some HTML
 ![image](https://github.com/user-attachments/assets/1578a356-1bba-4bb2-b7a2-6c557c8425f0)
 
 
-### Day 2
+### Step 2
 I changed the structure of html a bit to to help with the design.
 
 For example we need some sub-text for the nubmers so I changed the structure of every button:
@@ -87,7 +87,7 @@ link: https://www.fontspace.com/digital-7-font-f7087
 
 <img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/2a4df54b-77ac-4bff-bf55-2e3a4f054e25">
 
-### Day 3
+### Step 3
 
 
 
@@ -104,7 +104,7 @@ Also changed bottme coners
 
 <img align="right" style="height: 11rem" src="https://github.com/user-attachments/assets/f40a8b10-804a-49e7-b211-b6e2d8ee8651">
 
-### Day 4
+### Step 4
 
 Added some functionalities 
 
@@ -112,7 +112,7 @@ For now, you can +,-,*,/
 And also you claer the display by using C/CE
 
 
-### Day 7
+### Step 5
 
 It seems I Do not quite understand how AC and CE/C work
 
